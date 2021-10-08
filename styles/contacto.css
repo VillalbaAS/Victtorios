@@ -1,0 +1,66 @@
+:root {
+    --color-primario-background: #3B060B;
+    --color-primario: #540810;
+    --color-secundario: #530810;
+    --color-terciario: #A1101F;
+}
+
+.titulo-blanco {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.titulo-primario {
+    color: var(--color-primario-background);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.seccion1 {
+    color: white;
+    background-color: var(--color-primario-background);
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.seccion1 a{
+    color: white;
+}
+.seccion1 > .titulo-blanco, #numero, #correo, #direccion {
+    flex: 2 1 100%;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.formulario {
+    padding: 40px 0;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+.btn {
+    background-color: var(--color-secundario);
+    color: white;
+}
+
+.footer {
+    background-color: var(--color-primario-background);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.footer ul > li {
+    list-style: none;
+    text-align: center;
+}
+.footer ul > li > a{
+    text-decoration: none;
+    color:white;
+}
+
+.svg-white {
+    fill: rgb(255, 255, 255);
+}
